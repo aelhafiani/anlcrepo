@@ -99,6 +99,7 @@ app.get("/success", (req, res) => {
 app.get("cancel", (req, res) => {
     res.render("cancel");
 });*/
-app.listen(3000, () => {
+const hostname = '0.0.0.0'
+app.listen(3000, hostname , () => {
     console.log("Server is running");
 });
